@@ -1,2 +1,2 @@
 # notex
-pfe
+University Management Desktop App.
