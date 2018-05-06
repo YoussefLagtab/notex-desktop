@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./main.css" />
+  <link rel="stylesheet" type="text/css" href="../semantic/semantic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../semantic/semantic.min.js" />
+  <!-- <script src="../node_modules/angular/angular.js"></script> -->
+  <!-- <script src="../node_modules/angular-route/angular-route.js"></script> -->
+  <script src="./renderer.js"></script>
+
+</head>
+
+<body>
+  <div id="header">
+    <div class="ui secondary pointing menu">
+      <button id="home-btn" class="item active header-btn" onclick="goto('home')">Home</button>
+      <button id="dashboard-btn" class="item header-btn" onclick="goto('dashboard')">Dashboard</button>
+    </div>
+  </div>
+
+  <div id="main"></div>
+
+</body>
+
+</html>
